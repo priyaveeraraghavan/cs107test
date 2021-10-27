@@ -3,7 +3,7 @@ python:
         - "3.6"
 before_install:
         - pip install pytest pytest-cov
-        - pip isntall codecov
+        - pip install codecov
 script:
         - pytest --cov=./
 after_success:
